@@ -1,0 +1,430 @@
+body{ /*바디 전체*/
+    background-color: black;
+}
+
+#wrapper { /*96%로 너비값*/
+    width: 100%;
+    margin: 0 auto;
+    
+}
+header { /*헤더 %로 단위변경*/
+    width: 100%;
+    height: 184px;
+    background-color: black;
+    border-bottom: 2px solid black;
+}
+
+.underground{ /*표지*/
+    margin-left: 5%;
+    margin-top: 62px;
+}
+
+
+.middle{ /*중앙*/
+    display: flex;
+    margin-top: 62px;
+}
+
+
+    
+    .content { /*본문*/
+        width: 50.78%; 
+        height: 1000px;
+        
+       
+    }
+
+        .musicbox{ /*노래 박스 공간*/
+            width: 82.666%; 
+            height: 758px;
+            margin-left: 17.333%;
+
+        }
+
+            .nobox{ /*빈 공간*/
+                width: 100%;
+                height: 38px;
+
+                background-color: black;
+            }
+
+            .musicimgbox{ /*노래 이미지 박스 공간*/
+                width: 100%;
+                height: 400px;
+               
+                text-align: center;                
+                background-color: black;
+            }
+
+                .musicimg{ /*노래 이미지 크기*/
+                    width: 400px;
+                    height: 400px;
+                }
+
+            .musicnamebox{ /*노래 이름 박스 공간*/
+                margin-top: 79px;
+                margin-left: 12.779%;
+                width: 74.442%;
+                height: 36px;
+
+                background-color:black;
+            }
+
+                .musicname{ /*노래 이름 효과*/
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 36px;
+
+                    color: white;
+                }
+
+            .musicsingerbox{ /*노래 가수 박스 공간*/
+                margin-top: 7px;
+                margin-left: 12.779%;
+                width: 74.442%;
+                height: 23px;
+
+                background-color: black;
+
+            }
+
+                .musicsinger{ /*노래 가수 효과*/
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 22px;
+
+                    color: white;
+                }
+
+            .progressbarbox{ /*프로그레스바 박스 공간*/
+                width: 74.442%;
+                height: 21px;
+                margin-top: 19px;
+                margin-left: 12.779%;               
+
+            }
+
+                
+                #progress { /*프로그레스바*/
+                    appearance: none;
+                    width: 100%;
+                    height: 10px;
+                    
+                }
+                #progress::-webkit-progress-bar { /*프로그레스바 배경*/
+                    background:#f0f0f0;
+                    box-shadow: inset 3px 3px 10px #ccc;
+                   
+                }
+                #progress::-webkit-progress-value { /*프로그레스바 진행바의 배경*/
+                    
+                    background: #BFBFBF;
+                    background: -webkit-linear-gradient(to right, #FFFFFF, #BFBFBF);
+                    background: linear-gradient(to right,#FFFFFF, #BFBFBF);
+
+                }
+
+            .timer{ /*시간*/
+                margin-left: 12.779%;
+                margin-top: 5px;
+                width: 74.442%;
+                height: 30px;
+                display: flex;
+                
+
+                background-color: black;
+
+            }
+                .starttimebox{ /*시작 시간 박스 공간*/
+                    width: 50%;
+                    height: 30px;
+
+                }
+
+                    .starttime{ /*시작 시간*/
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 22px;
+
+                        color: white;
+                    }
+
+                .lasttimebox{ /*끝나는 시간 박스 공간 (노래 전체 시간)*/
+                    width: 50%;
+                    height: 30px;
+
+                }
+
+                    .lasttime{ /*끝나는 시간 효과*/
+                        float: right;
+
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 22px;
+                        
+
+                        color: white;
+                    }
+
+            .btn{ /*노래 버튼*/
+                width: 100%;
+                height: 50px;
+                margin-top: 30px;
+                text-align: center;
+
+                background-color: black;
+            }
+
+                .previous{  /*노래 이전 버튼*/
+                    margin-bottom: 5px;
+                }
+
+                .playnstop{ /*노래 재생,멈춤 버튼*/
+                    margin-left: 80px;
+                    margin-right: 80px;
+                }
+
+                .next{ /*노래 다음 버튼*/
+                    margin-bottom: 5px;
+                }
+                
+
+    .right-side { /*오른쪽 사이드바*/    
+        width: 49.22%; 
+        height: 1000px;
+        
+        background-color: black;
+    }
+
+            
+        .container{ /*컨테이너*/
+            width: 88.994%;
+            height: 758px;   
+            background: #131313;
+            overflow: auto;
+
+            color: white;
+        }
+
+            .container::-webkit-scrollbar { /*스크롤바 크기*/
+                width: 30px;
+                    
+            }
+            .container::-webkit-scrollbar-thumb { /*스크롤바의 배경*/
+                background-color: #373737;
+            }
+            .container::-webkit-scrollbar-track { /*스크롤바의 빈 배경*/
+                background-color: #565656;
+            }
+
+        .listname{ /*컨테이너 안의 재생목록과 버튼 박스 공간*/
+            width: 99%; 
+            height: 74px;
+            display: flex;
+
+            
+        }
+            .playlistbox{ /*재생목록 박스 공간*/
+                width: 94.3%;
+                height: 36px;
+                margin-top: 38px;
+                margin-left: 2.96%;
+
+                
+            }
+                .playlist{ /*재생목록 효과*/                    
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 36px;
+                }
+
+            .deletebox{ /*삭제 버튼 박스 공간*/
+                width: 4.7%;
+                height: 30px;
+                margin-top: 44px;
+
+                
+            }
+               
+                button[type=delete]{/*삭제 버튼 상세*/
+                    background-color: #131313;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    border: 0;
+                    outline: 0;
+                    color: #FFFFFF;
+                }
+
+        .musiclist{ /*전체 음악 리스트들*/
+            width: 99%; 
+                                  
+        }
+
+
+            .musicoption{ /*음악 관련 한 줄을 박스로 나열*/
+                width: 100%;
+                height: 50px;
+                margin-top: 16px;
+                display: flex;
+                
+
+                background-color: #131313;
+            }
+
+                .opcheckbox{ /*체크박스 공간*/
+                   width: 6.738%;
+                   height: 50px;
+                   margin-left: 3.249%;
+
+                   
+
+                }
+                    input[type=checkbox]{ /*체크박스*/
+                        width: 20px;
+                        height: 20px;
+                        
+                        margin-top: 15px;
+                        margin-left: 20px;
+                    }
+
+                .opmusicimgbox{ /*노래 이미지 박스 공간*/
+                    width: 50px;
+                    height: 50px;
+                    
+
+                }
+                    .opmusicimg{ /*노래 이미지*/
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 10px;
+                    }
+
+                    
+
+                .opmusicnamebox{ /*노래 이름 박스 공간*/
+                    width: 31.242%;
+                    height: 43px;
+                    margin-top: 3.5px;
+                    margin-left: 5.655%;
+
+                    
+                }
+
+                    .opmusicname{ /*노래 이름*/               
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 36px;
+
+                        color: white;
+                    }
+
+                    .opselectmusicname{ /*재생된 노래 이름*/
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 36px;
+
+                        color: #4747ff;
+                        
+                    }
+
+                .opmusicartistbox{ /*노래 아티스트 박스 공간*/
+                    width: 19.9%;
+                    height: 43px;
+                    margin-top: 3.5px;
+ 
+                }
+
+                    .opmusicartist{ /*노래 아티스트*/
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 36px;
+
+                        color: white;
+                    }
+
+                    .opselectmusicartist{ /*재생된 노래 아티스트*/
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 36px;
+
+                        color: #4747ff;
+                        
+                    }
+                
+                .opgenrebox{ /*노래 장르 박스 공간*/
+                    width: 22.9%;
+                    height: 43px;
+                    margin-top: 3.5px;
+                                        
+                }
+
+                    .opgenre{ /*노래 장르*/
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 36px;
+
+                        color: white;
+                    }
+
+                    .opselectgenre{ /*재생된 노래 장르*/
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 36px;
+
+                        color: #4747ff;
+                        
+                    }
+
+                .opplaybtnbox{ /*플레이 버튼 공간*/
+                    width: 5.2%;
+                    height: 43px;
+                    margin-top: 3.5px;
+                    
+                   
+                }
+
+                    .opplaybtn{ /*플레이 버튼*/
+                        width: 30px;
+                        height: 30px;
+
+                        margin-top: 6px;
+                        margin-left: 11px;
+                    }
+
+                    .opselectplaybtn{ /*재생된 플레이 버튼*/
+                        width: 30px;
+                        height: 30px;
+
+                        margin-top: 6px;
+                        margin-left: 11px;                        
+                    }
+
+           
+
+
+
+
+    

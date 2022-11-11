@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+#wrapper { /*96%로 너비값*/
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.middle{ /*중앙*/
+    display: flex;
+}
+
+
+    .left-side { /*사이드 빈공간*/
+        width: 37.06%;
+        height: 1000px;
+        
+       
+    }
+    .content { /*본문*/
+        width: 25.88%;
+        height: 1000px;
+       
+        text-align: center;
+        
+        background-color: black;
+    }
+
+        .underground{ /*언더그라운드 표지*/
+            margin-top: 356px;
+            
+            
+        }
+
+        .kakao_btn{ /*카카오 버튼 표지*/
+            margin-top: 144px;
+                      
+        }
+
+       
+
+    
+
+
+
+    
+
