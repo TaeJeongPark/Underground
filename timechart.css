@@ -246,13 +246,13 @@ header { /*헤더 %로 단위변경*/
                         .chartmusicimg{ /*노래 이미지*/
                             width: 50px;
                             height: 50px;
-                            border-radius: 10px;
+                            border-radius: 20%;
                         }
         
                         
         
                     .chartmusicnamebox{ /*노래 이름 박스 공간*/
-                        width: 31.242%;
+                        width: 28.242%;
                         height: 43px;
                         margin-top: 3.5px;
                         margin-left: 5.655%;
@@ -266,6 +266,13 @@ header { /*헤더 %로 단위변경*/
                             font-weight: 400;
                             font-size: 24px;
                             line-height: 36px;
+
+                            /*글자 수 제한*/
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 1 ;
+                            -webkit-box-orient: vertical;
         
                             color: white;
                         }
@@ -273,9 +280,10 @@ header { /*헤더 %로 단위변경*/
                         
         
                     .chartmusicartistbox{ /*노래 아티스트 박스 공간*/
-                        width: 19.9%;
+                        width: 16.9%;
                         height: 43px;
                         margin-top: 3.5px;
+                        margin-left: 3%;
         
                         
          
@@ -287,6 +295,13 @@ header { /*헤더 %로 단위변경*/
                             font-weight: 400;
                             font-size: 24px;
                             line-height: 36px;
+
+                            /*글자 수 제한*/
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 1 ;
+                            -webkit-box-orient: vertical;
         
                             color: white;
                         }
@@ -295,9 +310,8 @@ header { /*헤더 %로 단위변경*/
                         width: 24.9%;
                         height: 43px;
                         margin-top: 3.5px;
-        
-                       
-                                       
+                        margin-left: 3%;
+                                      
                     }
         
                         .chartgenre{ /*노래 장르*/
@@ -368,6 +382,7 @@ header { /*헤더 %로 단위변경*/
                     .musicimg{ /*노래 이미지*/
                         margin-top: 23px;
                         width: 100%;
+                        border-radius: 20%;
                     }
     
                 .musiclistbox{ /*노래 리스트 박스 공간*/
@@ -384,6 +399,13 @@ header { /*헤더 %로 단위변경*/
                     }
                         .musicname{ /*노래 이름*/
                             margin-left: 7.667%;   
+
+                            /*글자 수 제한*/
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 1 ;
+                            -webkit-box-orient: vertical;
     
                             font-family: 'Poppins';
                             font-style: normal;
@@ -400,6 +422,13 @@ header { /*헤더 %로 단위변경*/
                     }
                         .musicartist{ /*노래 아티스트*/
                             margin-left: 7.667%; 
+
+                             /*글자 수 제한*/
+                             overflow: hidden;
+                             text-overflow: ellipsis;
+                             display: -webkit-box;
+                             -webkit-line-clamp: 1 ;
+                             -webkit-box-orient: vertical;
     
                             font-family: 'Poppins';
                             font-style: normal;
