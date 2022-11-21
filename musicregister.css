@@ -64,7 +64,7 @@ header { /*헤더 %로 단위변경*/
             .leftlist{ /*왼쪽 리스트 (리스트와 텍스트 필드)*/
                 width: 61.4%;
                 height: 320px;
-                background-color: black;
+               
                 
             }
 
@@ -85,7 +85,8 @@ header { /*헤더 %로 단위변경*/
                             font-style: normal;
                             font-weight: 400;
                             font-size: 24px;
-                            line-height: 36px;
+                            line-height: 40px;
+                            
 
                             color: white;
                         }
@@ -101,42 +102,60 @@ header { /*헤더 %로 단위변경*/
                     
                     
                         input[type=text] { /*input type이 text인 글자 효과*/
+                        box-sizing: border-box;
+                        vertical-align: middle;
                         margin-top: 2px;
                         width: 75.5%;
                         height: 36px;
                         font-size: 20px;
+                        font-weight: 400;
+                        line-height: 30px;
                         color: black;
                         font-family: 'Poppins';
                         }
 
                         input[type=graytext] { /*input type이 graytext인 글자 효과*/
+                            vertical-align: middle;
+                            box-sizing: border-box;
                             margin-top: 2px;
                             width: 75.5%;
                             height: 36px;
                             font-size: 20px;
+                            font-weight: 400;
+                            line-height: 30px;
                             background-color: #989898;
                             font-family: 'Poppins';
                             }
 
                         select[type=genre] { /*select type이 장르인 글자 효과*/
-                            width: 77.5%;
-                            height: 40px;
+                            margin-top: 2px;                           
+                            width: 75.5%;
+                            height: 36px;
                             font-size: 20px;
+                            font-weight: 400;
+                            line-height: 30px;                   
                             color: black;
                             font-family: 'Poppins';
+
+                            /* -o-appearance: none;
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                            appearance: none; */
                         }
 
                         select[type=timer] { /*select type이 시간인 글자 효과*/
+                            margin-top: 2px;
                             width: 101px;
-                            height: 40px;
+                            height: 36px;
                             font-size: 20px;
                             color: black;
                             font-family: 'Poppins';
                         }
 
-                        button[type=pyle]{ /*button type이 파일인 글자 효과*/
+                        button[type=pyle]{ /*button type이 파일인 글자 효과*/                            
+                            vertical-align: middle;
                             width: 20.9%;
-                            height: 40px;
+                            height: 36px;
                             font-size: 15px;
                             color: black;
                             font-family: 'Poppins';
@@ -152,6 +171,7 @@ header { /*헤더 %로 단위변경*/
                 margin-left: 66px;
                 width: 260px;
                 height: 260px;
+                border-radius: 10%;
             }
 
         .register{/*등록 버튼*/
@@ -168,8 +188,3 @@ header { /*헤더 %로 단위변경*/
         padding: 1.5625%;
         background-color: black;
     }
-
-
-
-
-    
