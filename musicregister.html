@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>음원 등록 페이지 </title>
-    <link href="musicregister.css" type ="text/css" rel="stylesheet">
+    <link href="test.css" type ="text/css" rel="stylesheet">
 </head>
 <body>
     <div id="wrapper">
@@ -25,28 +25,28 @@
                 <list class="flex">
 
                     <left class="leftlist">
-                        <a class="listflex">
+                        <div class="listflex">
                             <!--아티스트 텍스트 필드-->
                             <div class="leftlistbox">
-                                <text class="listtext">아티스트명</text>
+                                <text class="listtext" >아티스트명</text>
                             </div>
                             <div class="leftfieldbox">
-                                <input type="text">
+                                <input type="text" maxlength = "30">
                             </div> 
-                        </a>   
+                        </div>   
                         
-                        <a class="listflex">
+                        <div class="listflex">
                             <!--곡명 텍스트-->
                             <div class="leftlistbox">
                                 <text class="listtext">곡명</text>
                             </div>
                             
                             <div class="leftfieldbox">
-                                <input type="text">
+                                <input type="text" maxlength = "30">
                             </div> 
-                        </a> 
+                        </div> 
 
-                        <a class="listflex">
+                        <div class="listflex">
                             <!--장르 텍스트-->
                             <div class="leftlistbox">
                                 <text class="listtext">장르</text>
@@ -54,18 +54,18 @@
                             <!--장르 선택 필드-->
                             <div class="leftfieldbox">
                                 <select type ="genre">
-                                    <option value="none"> 선택 </option>
-                                   <option>발라드</option>
-                                   <option>팝</option>
-                                   <option>팝/어쿠스틱</option>
-                                   <option>랩/힙합</option>
-                                   <option>힙합/R&B</option>
-                                   <option>소울/락</option>
-                                   <option>인디/댄스</option>
-                                   <option>일렉/트로트/클래식</option>
+                                    <option  value="none">선택</option>
+                                   <option value="first">발라드</option>
+                                   <option value="second">팝</option>
+                                   <option value="third">팝/어쿠스틱</option>
+                                   <option value="fourth">랩/힙합</option>
+                                   <option value="fifth">힙합/R&B</option>
+                                   <option value="sixth">소울/락</option>
+                                   <option value="seventh">인디/댄스</option>
+                                   <option value="eighth">일렉/트로트/클래식</option>
                                    </select>
                             </div> 
-                        </a> 
+                        </div> 
 
                         <a class="listflex">
                             <!--음원링크 텍스트-->
@@ -78,7 +78,7 @@
                             </div> 
                         </a> 
 
-                        <a class="listflex">
+                        <div class="listflex">
                             <!--재생시간 텍스트-->
                             <div class="leftlistbox">
                                 <text class="listtext">재생시간</text>
@@ -91,19 +91,19 @@
                                 <select type = "timer"></select>
                                 <text class="listtext"> 초 </text>
                             </div> 
-                        </a> 
+                        </div> 
 
-                        <a class="listflex">
+                        <div class="listflex">
                             <!--앨범이미지 텍스트-->
                             <div class="leftlistbox">
                                 <text class="listtext">앨범 이미지</text>
                             </div>
                             <div class="leftfieldbox">
                                 <!--파일 찾기 버튼과 필드-->
-                                <input type="graytext"> 
+                                <input type="graytext" name="val" readonly/> 
                                 <button type= "pyle" alt = "파일 버튼">파일 찾기</button></p>
                             </div> 
-                        </a> 
+                        </div> 
 
                     </left>
 
