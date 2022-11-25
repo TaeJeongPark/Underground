@@ -79,16 +79,16 @@ header { /*헤더 %로 단위변경*/
                 font-family: 'Poppins';
                 }
 
-                .checkflex{/*체크 공간 플렉스 박스*/
+               .checkflex{/*체크 공간 플렉스 박스*/
                     display: flex;
                     
                 }
 
                     .doublecheck{/*중복 확인 설정*/
                         position: absolute;
-                        width: 4.895%;
+                        width: 4.45%;
                         height: 62.5px;
-                        left: 57.2%;
+                        left: 57.7%;
                         top: 319px;
                     }
 
