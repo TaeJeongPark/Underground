@@ -1,0 +1,167 @@
+body{
+    background-color: black;
+}
+
+#wrapper { /*96%로 너비값*/
+    width: 100%;
+    margin: 0 auto;
+    
+}
+header { /*헤더 %로 단위변경*/
+    width: 100%;
+    height: 184px;
+    background-color: black;
+    
+}
+
+    .underground{ /*표지*/
+        margin-left: 5%;
+        margin-top: 62px;
+    }
+
+.secondheader{ /*헤더 이름*/
+    margin-top: 77px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+}
+    .name{ /*이름 글자*/
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        
+        color: #FFFFFF;
+    }
+    
+
+
+
+.middle{ /*중앙*/
+    display: flex;
+}
+
+
+    .left-side { /*빈 공간*/
+        width: 28%;
+        height: 700px;
+        padding: 1.5625%;
+        background-color: black;
+    }
+
+    .content { /*본문*/
+        width: 44%;
+        height: 700px;
+        background-color: black;
+    }
+
+        .flex{ /*미들 전체 display*/
+            display: flex;
+            margin-top: 82px;
+        }
+        
+            .leftlist{ /*왼쪽 리스트 (리스트와 텍스트 필드)*/
+                width: 61.4%;
+                height: 320px;
+                background-color: black;
+                
+            }
+
+                .listflex{ /*리스트 display*/
+                    display: flex;
+                }
+
+                    .leftlistbox{ /* 왼쪽 리스트 박스 공간*/
+                        width: 27%;
+                        height: 53.333px;
+                        background-color: black;
+                        
+                    }
+
+                        .listtext{ /*왼쪽 리스트 글자 */
+                            
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 36px;
+
+                            color: white;
+                        }
+
+                        
+
+                    .leftfieldbox{ /*왼쪽 필드 박스 공간*/
+                        width: 73%;
+                        height: 53.333px;
+                        background-color: black;
+                    }
+
+                    
+                    
+                        input[type=text] { /*input type이 text인 글자 효과*/
+                        margin-top: 2px;
+                        width: 75.5%;
+                        height: 36px;
+                        font-size: 20px;
+                        color: black;
+                        font-family: 'Poppins';
+                        }
+
+                        input[type=graytext] { /*input type이 graytext인 글자 효과*/
+                            margin-top: 2px;
+                            width: 75.5%;
+                            height: 36px;
+                            font-size: 15px;
+                            background-color: #989898;
+                            font-family: 'Poppins';
+                            }
+
+                        select[type=genre] { /*select type이 장르인 글자 효과*/
+                            width: 77.5%;
+                            height: 40px;
+                            font-size: 20px;
+                            color: black;
+                            font-family: 'Poppins';
+                        }
+
+                        input[type=file]{ /*button type이 파일인 글자 효과*/
+                            width: 20.9%;
+                            height: 40px;
+                            font-size: 15px;
+                            color: black;
+                            font-family: 'Poppins';
+                        }
+
+
+        .rightlist{ /*오른쪽 리스트 (이미지)*/
+            width: 38.6%;
+            height: 320px;
+            background-color: black;
+        }
+            .defaultimg{  /*이미지 */
+                margin-left: 66px;
+                width: 260px;
+                height: 260px;
+            }
+
+        .register{/*등록 버튼*/
+            margin-top: 122px;
+            text-align: center;
+        }
+
+
+
+
+    .right-side { /*빈 공간*/   
+        width: 28%;
+        height: 700px;
+        padding: 1.5625%;
+        background-color: black;
+    }
+
+
+
+
+    

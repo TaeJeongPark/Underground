@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+    
+    
+}
+
+#wrapper { /*96%로 너비값*/
+    width: 100%;
+    margin: 0 auto;
+    
+}
+header { /*헤더 %로 단위변경*/
+    width: 100%;
+    height: 184px;
+    display: flex;
+    
+}
+
+.homeimg{ /*홈버튼 이미지 공간*/   
+    margin-left: 5%;
+    margin-top: 62px;
+}
+
+.middle{ /*중앙*/
+    display: flex;
+}
+
+
+
+
+    .left-side { /*왼쪽 사이드 바 (빈 공간)*/
+        width: 37%;
+        padding: 1.5625%;
+        background-color: black;
+    }
+    .content { /*본문 %로 단위변경*/
+        width: 26%;
+        height: 1000px;
+        text-align: center; 
+        background-color: black;
+        
+    }
+
+        .inputId{
+            margin-top: 108px;
+        }
+
+        input[type=text] { /*input type이 text인 글자 효과*/
+            box-sizing: border-box;
+            vertical-align: middle;
+            margin-top: 20px;
+            width: 100%;
+            height: 61px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;  
+            
+
+            border: 1px solid #000000;
+            border-radius: 10px;
+            color: black;
+            font-family: 'Poppins';
+            }
+
+            input[type=text2] { /*input type이 text2인 글자 효과*/
+                box-sizing: border-box;
+                vertical-align: middle;
+                margin-top: 50px;
+                width: 100%;
+                height: 61px;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;  
+                
+    
+                border: 1px solid #000000;
+                border-radius: 10px;
+                color: black;
+                font-family: 'Poppins';
+                }
+
+  password[type=password] { /*input type이 text인 글자 효과*/
+            box-sizing: border-box;
+            vertical-align: middle;
+            margin-top: 20px;
+            width: 100%;
+            height: 61px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;  
+            border: 1px solid #000000;
+            border-radius: 10px;
+            color: black;
+            font-family: 'Poppins';
+            }
+                .checkflex{/*체크 공간 플렉스 박스*/
+                    display: flex;
+                    
+                }
+
+                    .doublecheck{/*중복 확인 설정*/
+                        position: absolute;
+                        width: 4.895%;
+                        height: 62.5px;
+                        left: 57.2%;
+                        top: 319px;
+                    }
+
+                .redtextflex{ /*오류문구 텍스트 플렉스 위한 박스*/
+                    display: flex;
+                }
+
+                    .redtext1{ /*아이디 오류 문구 텍스트 설정*/
+                        position: absolute;                 
+                        top: 382px;
+                        color: red;
+                    }  
+        
+                    .redtext2{ /*비밀번호 확인 오류 문구 텍스트 설정*/
+                        position: absolute;                 
+                        top: 573px;
+                        color: red;
+                    }  
+
+                .register{/*회원가입 버튼*/
+                    margin-top: 57px;
+                    
+                }
+            
+
+#password2{
+    box-sizing: border-box;
+            vertical-align: middle;
+            margin-top: 20px;
+            width: 100%;
+            height: 61px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;  
+            border: 1px solid #000000;
+            border-radius: 10px;
+            color: black;
+            font-family: 'Poppins';
+} 
+        
+
+
+    .right-side { /*오른쪽 사이드 바(빈 공간)*/    
+        width: 37%;
+        height: 1000px;
+        padding: 1.5625%;
+        background-color: black;
+    }
+
+

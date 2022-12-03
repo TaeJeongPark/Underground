@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    
+    
+}
+
+#wrapper { /*96%로 너비값*/
+    width: 100%;
+    margin: 0 auto;
+    
+}
+header { /*헤더 %로 단위변경*/
+    width: 100%;
+    height: 184px;
+    background-color: black;
+    display: flex;
+    
+    
+}
+
+    .headerbox{ /*헤더박스 빈공간*/
+        width: 86.14%;
+        height: 184px;
+
+        
+    }
+
+
+
+    .selectbtn{ /*회원가입 버튼의 공간*/       
+        margin-top: 76px;        
+    }
+        .header-select{ /*세 버튼의 옵션*/  
+            background-color: black;            
+            width: 100px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            border: 0;
+            outline: 0;
+            color: #FFFFFF;      
+            
+        }
+
+    
+
+.middle{ /*중앙*/
+    display: flex;
+}
+
+
+
+
+    .left-side { /*왼쪽 사이드 바 (빈 공간)*/
+        width: 37%;
+        padding: 1.5625%;
+        background-color: black;
+    }
+    .content { /*본문 %로 단위변경*/
+        width: 26%;
+        height: 1000px;
+        
+        background-color: black;
+        text-align: center;
+        
+    }
+
+        .underground{ /*언더그라운드 표지*/
+            margin-top: 92px;
+           
+            
+        }
+
+        .inputId{ /*아이디창 박스*/
+            margin-top: 53px;
+        }
+
+            input[type=text] { /*input type이 text인 글자 효과*/
+                box-sizing: border-box;
+                vertical-align: middle;
+                margin-top: 20px;
+                width: 100%;
+                height: 61px;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                
+
+                border: 1px solid #000000;
+                border-radius: 10px;
+                color: black;
+                font-family: 'Poppins';
+                }
+
+            .redtextflex{ /*오류문구 텍스트 플렉스 위한 박스*/
+                display: flex;
+            }
+
+            .redtext{ /*오류 문구 텍스트 설정*/
+                position: absolute;                 
+                top: 573px;
+                color: red;
+            }    
+
+            .register{/*등록 버튼*/
+                margin-top: 57px;
+                
+            }
+        
+
+
+    .right-side { /*오른쪽 사이드 바(빈 공간)*/    
+        width: 37%;
+        height: 1000px;
+        padding: 1.5625%;
+        background-color: black;
+    }
+
+
+
+    
