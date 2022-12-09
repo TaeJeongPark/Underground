@@ -2,30 +2,36 @@
 //페이지 이동(1 : homepage, 2 : timechart, 3 : searchresult, 4 : streaming, 5 : musicregister)
 function move_page(index) {
 
+    var mname = document.getElementById("musicname").innerText;
+    var martist = document.getElementById("musicartist").innerText;
+    var malbum = document.getElementById("musicimg").getAttribute("src");
+    var mlink = document.getElementById("player").getAttribute("src");
+
+    var info = "?name="+mname+"&artist="+martist+"&album="+malbum+"&link="+mlink;
+
     switch (index) {
         case 1: {
-            location.href="homepage.jsp";
+            location.href="homepage.jsp"+info;
             break;
         }
         case 2: {
-            location.href="timechart.jsp";
+            location.href="timechart.jsp"+info;
             break;
         }
         case 3: {
             var param = document.getElementById("search").value;
             if (param === "") alert("검색어를 입력하세요.");
-            else location.href="searchresult.jsp?search="+param+"";
+            else location.href="searchresult.jsp"+info+"&search="+param+"";
             break;
         }
         case 4: {
-            location.href="streaming.jsp";
+            location.href="streaming.jsp"+info;
             break;
         }
         case 5: {
-            location.href="musicregister.jsp";
+            location.href="musicregister.jsp"+info;
             break;
         }
-
     }
 
 }
